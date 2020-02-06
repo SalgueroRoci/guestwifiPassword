@@ -18,10 +18,7 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.7
 sudo apt install python3-pip
 ```
-**Install python dependancies**
-```
-sudo pip3 install -r requirements.txt
-```
+
 **Install google chrome**
 ```
 sudo apt-get update
@@ -38,6 +35,10 @@ unzip in same folder as project
 ```
 git clone https://github.com/SalgueroRoci/guestwifiPassword.git
 ``` 
+**Install python dependancies**
+```
+sudo pip3 install -r requirements.txt
+```
 
 **Make a config.py file with username and password**  
 VPNusername="<username>"  
