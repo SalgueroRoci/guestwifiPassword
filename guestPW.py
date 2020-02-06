@@ -15,15 +15,15 @@ from selenium.webdriver.support import expected_conditions as EC
 import json
 import requests
 
-#Configure the selenium webdriver using google chrome
-options = Options()
-options.add_argument('--headless')
-options.add_argument('--disable-gpu')
-driver = webdriver.Chrome("./chromedriver", options=options)
-
 
 #Function Grab the guest password
 def getGuestPWD():
+    #Configure the selenium webdriver using google chrome
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
+    driver = webdriver.Chrome("./chromedriver", options=options)
+
     #Log into VPN using the website url
     driver.get("https://myaccess.oraclevpn.com")
     usernameElement = driver.find_element_by_id("username")
@@ -85,7 +85,7 @@ def printGuestPWD():
 # printGuestPWD()
 
 #Have the guest password retrieved and posted every morning at 6AM PST
-schedule.every().day.at("14:00").do(printGuestPWD)
+schedule.every().day.at("16:10").do(printGuestPWD)
 
 while True:
     schedule.run_pending()
