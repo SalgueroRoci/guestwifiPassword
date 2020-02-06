@@ -2,10 +2,10 @@
 
 Guest wifi project which integrated corporate guest wifi password to office slack to help with productivity in the office. The python script retrieves the guest wifi password then posts it on office Slack as a bot message. 
 
-**Installation on a cloud server:**
-OS Ubuntu 18.0
-latest Chrome version (version 80)
-latest selenium version 
+**Installation on a cloud server:**  
+OS Ubuntu 18.0  
+latest Chrome version (version 80)  
+latest selenium version  
 
 ## Getting started
 These instructions will help you set up the project on a server and integrate on slack to have it post the guest wifi for your workspace.
