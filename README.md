@@ -34,6 +34,11 @@ google-chrome --version
 Get webdriver for selenium from https://chromedriver.chromium.org/getting-started  
 unzip in same folder as project
 
+**Clone the repo**
+```
+git clone https://github.com/SalgueroRoci/guestwifiPassword.git
+``` 
+
 **Make a config.py file with username and password**  
 VPNusername="<username>"  
 VPNpassword="<password>"  
