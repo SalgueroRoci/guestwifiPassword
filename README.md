@@ -31,15 +31,15 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt-get install -f
 google-chrome --version
 ```
-Get webdriver for selenium from https://chromedriver.chromium.org/getting-started
+Get webdriver for selenium from https://chromedriver.chromium.org/getting-started  
 unzip in same folder as project
 
-**Make a config.py file with username and password**
-VPNusername="<username>"
-VPNpassword="<password>"
-SSOusername="<username>"
-SSOpassword="<password>"
-Webhook="<Slack URL>"
+**Make a config.py file with username and password**  
+VPNusername="<username>"  
+VPNpassword="<password>"  
+SSOusername="<username>"  
+SSOpassword="<password>"  
+Webhook="<Slack URL>"  
 ### Deployment 
 **Run python code**
 ```
