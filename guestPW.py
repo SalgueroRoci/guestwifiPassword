@@ -82,12 +82,11 @@ def printGuestPWD():
             % (response.status_code, response.text)
         )
 
+# printGuestPWD()
 
-schedule.every().day.at("23:00").do(printGuestPWD)
+#Have the guest password retrieved and posted every morning at 6AM PST
+schedule.every().day.at("14:00").do(printGuestPWD)
 
 while True:
     schedule.run_pending()
     time.sleep(60) # wait one minute
-
-
-
